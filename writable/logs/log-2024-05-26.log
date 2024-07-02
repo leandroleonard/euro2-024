@@ -1,0 +1,928 @@
+CRITICAL - 2024-05-26 12:37:05 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: api/v1/team]
+in APPPATH/Controllers/TeamController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->save()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:37:38 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: api/v1/team]
+in APPPATH/Controllers/TeamController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->save()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:39:50 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: api/v1/team]
+in APPPATH/Controllers/TeamController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->save()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:46:09 --> ErrorException: mkdir(): Permission denied
+[Method: POST, Route: submit]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(181): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/PlayerController.php(21): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:46:20 --> ErrorException: mkdir(): Permission denied
+[Method: POST, Route: submit]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(181): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/PlayerController.php(21): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:46:59 --> ErrorException: mkdir(): Permission denied
+[Method: POST, Route: submit]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(181): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/PlayerController.php(21): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:47:16 --> ErrorException: mkdir(): Permission denied
+[Method: POST, Route: submit]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(181): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/PlayerController.php(21): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:47:41 --> Error: Undefined constant "App\Controllers\PUBLICPATH"
+[Method: POST, Route: submit]
+in APPPATH/Controllers/PlayerController.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:52:56 --> ErrorException: mkdir(): Permission denied
+[Method: POST, Route: api/v1/team]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(181): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/TeamController.php(35): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->save()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 12:53:53 --> ErrorException: mkdir(): Permission denied
+[Method: POST, Route: submit]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(181): mkdir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(135): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/PlayerController.php(21): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 13:56:44 --> BadMethodCallException: Call to undefined method App\Models\Team::getAll
+[Method: GET, Route: api/v1/team]
+in SYSTEMPATH/Model.php on line 921.
+ 1 APPPATH/Controllers/TeamController.php(37): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->get()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 13:56:52 --> BadMethodCallException: Call to undefined method App\Models\Team::getAll
+[Method: GET, Route: api/v1/team]
+in SYSTEMPATH/Model.php on line 921.
+ 1 APPPATH/Controllers/TeamController.php(37): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->get()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 14:56:24 --> ErrorException: Undefined array key "des"
+[Method: GET, Route: team/1]
+in APPPATH/Views/team/form.php on line 20.
+ 1 APPPATH/Views/team/form.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/team/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TeamController.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 14:56:25 --> ErrorException: Undefined array key "des"
+[Method: GET, Route: team/1]
+in APPPATH/Views/team/form.php on line 20.
+ 1 APPPATH/Views/team/form.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/team/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TeamController.php(31): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 15:03:12 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: team/1]
+in APPPATH/Views/team/form.php on line 85.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TeamController.php(31): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->submit()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 15:03:14 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: team/1]
+in APPPATH/Views/team/form.php on line 85.
+ 1 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/TeamController.php(31): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->submit()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 15:10:20 --> Error: Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::size()
+[Method: POST, Route: submit]
+in APPPATH/Controllers/PlayerController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 15:10:22 --> Error: Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::size()
+[Method: POST, Route: submit]
+in APPPATH/Controllers/PlayerController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 15:10:28 --> Error: Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$size
+[Method: POST, Route: submit]
+in APPPATH/Controllers/PlayerController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:14:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "player/create.php"
+[Method: GET, Route: player]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PlayerController.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:14:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "player/create.php"
+[Method: GET, Route: player]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PlayerController.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:15:22 --> ErrorException: Undefined variable $data
+[Method: GET, Route: player]
+in APPPATH/Views/player/form.php on line 4.
+ 1 APPPATH/Views/player/form.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:15:23 --> ErrorException: Undefined variable $data
+[Method: GET, Route: player]
+in APPPATH/Views/player/form.php on line 4.
+ 1 APPPATH/Views/player/form.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-05-26 16:31:59 --> mysqli_sql_exception: Table 'euro2024.players' doesn't exist in /var/www/html/euro2024/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /var/www/html/euro2024/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /var/www/html/euro2024/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/euro2024/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/euro2024/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/euro2024/system/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/euro2024/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/euro2024/app/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/euro2024/system/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+#8 /var/www/html/euro2024/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/euro2024/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/euro2024/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/euro2024/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /var/www/html/euro2024/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2024-05-26 16:31:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.players' doesn't exist
+[Method: GET, Route: api/v1/player]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:31:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.players' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:31:59 --> [Caused by] mysqli_sql_exception: Table 'euro2024.players' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-05-26 16:31:59 --> mysqli_sql_exception: Table 'euro2024.players' doesn't exist in /var/www/html/euro2024/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /var/www/html/euro2024/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /var/www/html/euro2024/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/euro2024/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/euro2024/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/euro2024/system/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/euro2024/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/euro2024/app/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/euro2024/system/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+#8 /var/www/html/euro2024/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/euro2024/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/euro2024/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/euro2024/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /var/www/html/euro2024/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2024-05-26 16:31:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.players' doesn't exist
+[Method: GET, Route: api/v1/player]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:31:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.players' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:31:59 --> [Caused by] mysqli_sql_exception: Table 'euro2024.players' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-05-26 16:32:09 --> mysqli_sql_exception: Table 'euro2024.players' doesn't exist in /var/www/html/euro2024/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /var/www/html/euro2024/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /var/www/html/euro2024/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/euro2024/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/euro2024/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/euro2024/system/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/euro2024/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/euro2024/app/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/euro2024/system/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+#8 /var/www/html/euro2024/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/euro2024/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/euro2024/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/euro2024/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /var/www/html/euro2024/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2024-05-26 16:32:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.players' doesn't exist
+[Method: GET, Route: api/v1/player]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:32:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.players' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:32:09 --> [Caused by] mysqli_sql_exception: Table 'euro2024.players' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/PlayerController.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->get()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:39:33 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player]
+in APPPATH/Controllers/PlayerController.php on line 93.
+ 1 APPPATH/Controllers/PlayerController.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:40:31 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player]
+in APPPATH/Controllers/PlayerController.php on line 93.
+ 1 APPPATH/Controllers/PlayerController.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:45:03 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player]
+in APPPATH/Controllers/PlayerController.php on line 95.
+ 1 APPPATH/Controllers/PlayerController.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:47:45 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player]
+in APPPATH/Controllers/PlayerController.php on line 95.
+ 1 APPPATH/Controllers/PlayerController.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:48:35 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpyvWNmN" to "/var/www/html/euro2024/public/uploads/player/". Reason: 
+[Method: POST, Route: api/v1/player]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 154.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/PlayerController.php(76): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:48:50 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpdlj23n" to "/var/www/html/euro2024/public/uploads/player/". Reason: 
+[Method: POST, Route: api/v1/player]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 154.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/PlayerController.php(76): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:49:04 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player]
+in APPPATH/Controllers/PlayerController.php on line 95.
+ 1 APPPATH/Controllers/PlayerController.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:49:05 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player]
+in APPPATH/Controllers/PlayerController.php on line 95.
+ 1 APPPATH/Controllers/PlayerController.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:52:19 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: api/v1/player/]
+in APPPATH/Controllers/PlayerController.php on line 95.
+ 1 APPPATH/Controllers/PlayerController.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 16:56:09 --> CodeIgniter\HTTP\Exceptions\HTTPException: Could not move file "phpRin8ZF" to "/var/www/html/euro2024/public/uploads/player/". Reason: 
+[Method: POST, Route: api/v1/player/]
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 154.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(154): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/PlayerController.php(76): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:01:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "player/index.php"
+[Method: GET, Route: player]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PlayerController.php(21): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:07:14 --> ErrorException: Undefined array key "brithday"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 29.
+ 1 APPPATH/Views/player/form.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(32): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:07:15 --> ErrorException: Undefined array key "brithday"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 29.
+ 1 APPPATH/Views/player/form.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(32): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:10:05 --> ErrorException: Undefined array key "team"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 52.
+ 1 APPPATH/Views/player/form.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(32): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:10:06 --> ErrorException: Undefined array key "team"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 52.
+ 1 APPPATH/Views/player/form.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(32): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:12:32 --> Error: Cannot use object of type CodeIgniter\HTTP\Response as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(32): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:12:32 --> Error: Cannot use object of type CodeIgniter\HTTP\Response as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(32): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:14:13 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+[Method: GET, Route: player/1]
+in APPPATH/Controllers/PlayerController.php on line 29.
+ 1 APPPATH/Controllers/PlayerController.php(29): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:14:14 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+[Method: GET, Route: player/1]
+in APPPATH/Controllers/PlayerController.php on line 29.
+ 1 APPPATH/Controllers/PlayerController.php(29): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:14:15 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+[Method: GET, Route: player/1]
+in APPPATH/Controllers/PlayerController.php on line 29.
+ 1 APPPATH/Controllers/PlayerController.php(29): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:16:30 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:16:31 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:16:32 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:02 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:03 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:37 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:38 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:44 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:45 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:17:46 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:18:11 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:18:12 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:18:13 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 SYSTEMPATH/View/View.php(234): include()
+ 2 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/PlayerController.php(36): view()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:18:39 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: player/1]
+in APPPATH/Controllers/PlayerController.php on line 35.
+ 1 APPPATH/Controllers/PlayerController.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:18:40 --> ErrorException: Undefined array key "data"
+[Method: GET, Route: player/1]
+in APPPATH/Controllers/PlayerController.php on line 35.
+ 1 APPPATH/Controllers/PlayerController.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:19:30 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(35): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:21:25 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: player/create]
+in APPPATH/Controllers/PlayerController.php on line 36.
+ 1 APPPATH/Controllers/PlayerController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:21:42 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(36): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:22:47 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(47): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-26 17:22:48 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: player/1]
+in APPPATH/Views/player/form.php on line 15.
+ 1 APPPATH/Views/player/form.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/var/www/html/euro2024/app/Views/player/form.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/PlayerController.php(47): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PlayerController->form()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

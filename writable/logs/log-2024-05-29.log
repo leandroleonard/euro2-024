@@ -1,0 +1,58 @@
+ERROR - 2024-05-29 13:14:29 --> mysqli_sql_exception: Table 'euro2024.team' doesn't exist in /var/www/html/euro2024/system/Database/MySQLi/Connection.php:308
+Stack trace:
+#0 /var/www/html/euro2024/system/Database/MySQLi/Connection.php(308): mysqli->query()
+#1 /var/www/html/euro2024/system/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/euro2024/system/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/euro2024/system/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/euro2024/system/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/euro2024/system/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/euro2024/app/Controllers/TeamController.php(43): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/euro2024/system/CodeIgniter.php(933): App\Controllers\TeamController->get()
+#8 /var/www/html/euro2024/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/euro2024/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/euro2024/system/Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/euro2024/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /var/www/html/euro2024/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 {main}
+CRITICAL - 2024-05-29 13:14:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.team' doesn't exist
+[Method: GET, Route: api/v1/team]
+in SYSTEMPATH/Database/BaseConnection.php on line 676.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/TeamController.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->get()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-29 13:14:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'euro2024.team' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 313.
+ 1 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 6 APPPATH/Controllers/TeamController.php(43): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->get()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-29 13:14:29 --> [Caused by] mysqli_sql_exception: Table 'euro2024.team' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 308.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 7 APPPATH/Controllers/TeamController.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TeamController->get()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
